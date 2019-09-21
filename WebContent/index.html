@@ -10,8 +10,12 @@
   font-weight: normal;
 }
 
+a:hover {
+	text-decoration: none;
+}
 body {
   background: #EFEFEF;  
+  overflow-x: hidden; 
 }
 
 .navbar {
@@ -90,7 +94,7 @@ li:hover {
   margin-top: 60px;
 }
 
-.card > button {
+.card > a > button {
   margin-top: 20px;
   width: 100%;
   padding: 20px;
@@ -100,7 +104,7 @@ li:hover {
   cursor: pointer;
 }
 
-.card > button:hover {
+.card > a > button:hover {
   background: #fece02;
   border-color: #fece02;
 }
@@ -135,9 +139,12 @@ li:hover {
 <div class="navbar navList">
   <div class="nav-wrapper nav-white">
     <ul>
-      <li>LIVROS</li>
-      <li>LIVROS</li>
-      <li>LIVROS</li>
+      <li>Administração</li>
+      <li>Direito</li>
+      <li>Matemática</li>
+      <li>Ciência</li>
+      <li>Educação Física</li>
+      <li>Técnologia</li>
     </ul>
   </div>
 </div>
@@ -155,7 +162,9 @@ li:hover {
       <p>Nigro,Thiago</p>
       <small>Vendido por Saravá</small>
       <h2><strong>R$ 17,60</strong></h2>
-      <button>Adicionar ao carrinho</button>
+       <a href="checkout.jsp">
+	    <button>Comprar</button>
+      </a>
     </div>
     
     <div class="card">
@@ -164,7 +173,9 @@ li:hover {
       <p>Nigro,Thiago</p>
       <small>Vendido por Saravá</small>
       <h2><strong>R$ 17,60</strong></h2>
-      <button>Adicionar ao carrinho</button>
+       <a href="checkout.jsp">
+	    <button>Comprar</button>
+      </a>
     </div>
     
     <div class="card">
@@ -173,7 +184,9 @@ li:hover {
       <p>Nigro,Thiago</p>
       <small>Vendido por Saravá</small>
       <h2><strong>R$ 17,60</strong></h2>
-      <button>Adicionar ao carrinho</button>
+       <a href="checkout.jsp">
+	    <button>Comprar</button>
+      </a>
     </div>
     
     <div class="card">
@@ -182,7 +195,9 @@ li:hover {
       <p>Nigro,Thiago</p>
       <small>Vendido por Saravá</small>
       <h2><strong>R$ 17,60</strong></h2>
-      <button>Adicionar ao carrinho</button>
+      <a href="checkout.jsp">
+	    <button>Comprar</button>
+      </a>
     </div>
     
     <div class="card">
@@ -191,7 +206,9 @@ li:hover {
       <p>Nigro,Thiago</p>
       <small>Vendido por Saravá</small>
       <h2><strong>R$ 17,60</strong></h2>
-      <button>Adicionar ao carrinho</button>
+      <a href="checkout.jsp">
+	    <button>Comprar</button>
+      </a>
     </div>
 
   </div>
@@ -199,7 +216,7 @@ li:hover {
 
 <div class="footer">
   <div class="footer-content">
-    hellow
+    <img src="https://i.ibb.co/pfWt7F6/footer.png" alt="footer" border="0">
   </div>
 </div>
 
